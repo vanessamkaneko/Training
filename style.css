@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 80%;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  padding: 10rem;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  background-color: hsla(244, 38%, 16%);
+  padding: 0 3rem;
+  border-radius: 0.3rem;
+}
+
+body h1 {
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+body h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.sub-text {
+  font-family: 'Lexenda Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  font-size: 0.8rem;
+}
+
+.numbers-info {
+  display: flex;
+}
+
+.numbers-info .numbers h2 {
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+}
+
+.numbers-info .numbers p {
+  font-family: 'Lexenda Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 0.75rem;
+}
+
+.numbers-info .numbers {
+  padding: 0 1rem;
+}
