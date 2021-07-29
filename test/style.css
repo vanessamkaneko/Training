@@ -4,26 +4,32 @@
   box-sizing: border-box;
 }
 
-img {
-  width: 80%;
-}
-
 body {
   background-color: hsl(233, 47%, 7%);
-  padding: 10rem;
+  padding: 5.8rem;
 }
 
 .main-container {
   display: flex;
   align-items: center;
-  background-color: hsla(244, 38%, 16%);
-  padding: 0 3rem;
+  background-color: rgb(27, 25, 56);
   border-radius: 0.3rem;
+  justify-content: space-between;
+}
+
+.main-container .text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 446px;
+  justify-content: space-around;
+  padding: 4rem;
 }
 
 body h1 {
   font-family: 'Inter', sans-serif;
   color: hsl(0, 0%, 100%);
+  font-size: 2.2rem;
 }
 
 body h1 span {
@@ -35,25 +41,32 @@ body h1 span {
   color: hsla(0, 0%, 100%, 0.6);
   line-height: 1.5;
   margin-bottom: 3rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  padding-right: 2rem;
 }
 
 .numbers-info {
   display: flex;
+  justify-content: flex-start;
+}
+
+.numbers-info .numbers {
+  padding-right: 4.5rem;
+}
+
+.numbers-info .numbers:last-child {
+  padding-right: 0;
 }
 
 .numbers-info .numbers h2 {
   font-family: 'Inter', sans-serif;
   color: hsl(0, 0%, 100%);
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 
 .numbers-info .numbers p {
   font-family: 'Lexenda Deca', sans-serif;
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 0.75rem;
-}
-
-.numbers-info .numbers {
-  padding: 0 1rem;
 }
